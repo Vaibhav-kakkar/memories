@@ -24,6 +24,6 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
   .catch((error) => console.log(`${error} did not connect`));
 
 
-//mongoose.set('useFindAndModify', false);
+// mongoose.set('useFindAndModify', false);
 
 // https://www.mongodb.com/cloud/atlas
